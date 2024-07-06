@@ -1,0 +1,44 @@
+#home-header-body{
+    background-image: url(../../../../../public/images/Home/headerBackground.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .home-header-container{
+    color: white;
+    width: 60%;
+}
+.home-header-container h2{
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin: 0;
+}
+.home-header-container p{
+    width: 60%;
+    font-size: 1.2rem;
+    margin: 1rem auto;
+}
+
+.header-btn-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+} */
+#header-shop-btn{
+    background-color: #843F20;
+    border: 1px solid #843F20;
+    box-sizing: border-box;
+}
+#header-learn-btn{
+    background: none;
+    border: 1px solid #F7F0E6;
+    box-sizing: border-box;
+}
+
+
+
+
+

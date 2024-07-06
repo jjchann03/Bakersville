@@ -1,0 +1,111 @@
+.footer-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-grid-container{
+    display: grid;
+    grid-template-columns: 5fr 2fr 5fr;
+    height: 350px;
+}
+.footer-details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+#footer-brand{
+    padding: 0;
+}
+#footer-details-p{
+    width: 80%;
+    text-align: start;
+    font-size: 0.85rem;
+    line-height: 25px; 
+    margin: 1.5rem 0;
+}
+.footer-email-container{
+    width: fit-content;
+    position: relative;
+    margin-top: 1rem;
+}
+.email-bar{
+    width: 230px;
+    height: 32px;
+    padding: 7px 12px;
+    box-sizing: border-box;
+    font-size: 0.7rem;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+.submit-arrow-btn{
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    border: 1px solid #843F20;
+    position: absolute;
+    top: 10%;
+    left: 87%;
+    box-sizing: border-box;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #843F20;
+}
+.footer-icon-container{
+    width: fit-content;
+    height: fit-content;
+    padding: 2.5rem 0;
+    box-sizing: content-box;
+}
+.footer-icon{
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+    color: #843F20;
+}
+
+
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: start;
+    text-align: start;
+    padding-left: 20%;
+}
+.footer-link{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+.footer-img-container{
+    height: 100%;
+}
+.footer-img-container img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.footer-down-banner{
+    width: 100%;
+    height: 35px;
+    background-color: #843F20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-down-banner p{
+    font-size: 0.8rem;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+}
