@@ -31,11 +31,13 @@
     background-color: #843F20;
     border: 1px solid #843F20;
     box-sizing: border-box;
+    color: #F7F0E6;
 }
 #header-learn-btn{
     background: none;
     border: 1px solid #F7F0E6;
     box-sizing: border-box;
+    color: #F7F0E6;
 }
 
 
