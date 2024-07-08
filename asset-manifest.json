@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Bakersville/static/css/main.e600e37d.css",
-    "main.js": "/Bakersville/static/js/main.41ca4673.js",
+    "main.js": "/Bakersville/static/js/main.ae6aafb2.js",
     "static/js/453.8ab44547.chunk.js": "/Bakersville/static/js/453.8ab44547.chunk.js",
     "static/media/aboutusBackground.png": "/Bakersville/static/media/aboutusBackground.42be9317b1dd1c9f16f0.png",
     "static/media/headerBackground.png": "/Bakersville/static/media/headerBackground.61fea4ab3e01a0200dfd.png",
@@ -9,11 +9,11 @@
     "static/media/gallery2.png": "/Bakersville/static/media/gallery2.e6827acb73594f4562ce.png",
     "index.html": "/Bakersville/index.html",
     "main.e600e37d.css.map": "/Bakersville/static/css/main.e600e37d.css.map",
-    "main.41ca4673.js.map": "/Bakersville/static/js/main.41ca4673.js.map",
+    "main.ae6aafb2.js.map": "/Bakersville/static/js/main.ae6aafb2.js.map",
     "453.8ab44547.chunk.js.map": "/Bakersville/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e600e37d.css",
-    "static/js/main.41ca4673.js"
+    "static/js/main.ae6aafb2.js"
   ]
 }
