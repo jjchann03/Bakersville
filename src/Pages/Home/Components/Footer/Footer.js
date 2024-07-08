@@ -27,13 +27,13 @@ export default function Footer(){
                 <div id='footer-email-container' className='w-9/12 sm:w-10/12 lg:w-7/12 relative'>
                     <input type='email' placeholder='Email Address' className='w-full 
                     h-[1.4rem] sm:h-[1.8rem] md:h-[2.3rem] lg:h-[2.5rem] p-2 lg:px-4  border-[1px] border-slate-950 bg-transparent rounded-full
-                    text-[0.6rem] phone:text-xs md:text-sm lg:text-base 2xl:text-lg'></input>
+                    text-[0.6rem] phone:text-[0.7rem] md:text-sm lg:text-base 2xl:text-lg'></input>
                     <button type='submit' className='absolute 
                     w-[1rem] sm:w-[1.4rem] md:w-[1.9rem] lg:w-[2.1rem] 
                     bg-red-900 aspect-square rounded-full text-white flex justify-center items-center box-border
                     top-[26%] right-[2%] sm:top-[12%] lg:top-[8%] lg:right-[2%]'><FaArrowRight className='text-[0.6rem] phone:text-xs md:text-sm lg:text-base 2xl:text-lg'/></button>
                 </div>
-                <div id='footer-icon-container' className='flex justify-start items-center mt-4 phone:mt-2 sm:mt-4 lg:mt-8 w-full'>
+                <div id='footer-icon-container' className='flex justify-start items-center mt-4 phone:mt-2 sm:mt-4 lg:mt-4 lg:mb-4 w-full'>
                     <FaSquareFacebook className='text-lg phone:text-base sm:text-lg lg:text-2xl mr-3 text-red-900'/>
                     <FaSquareTwitter className='text-lg lg:text-2xl mr-3 text-red-900'/>
                     <FaSquareInstagram className='text-lg lg:text-2xl mr-3 text-red-900'/>
@@ -44,7 +44,7 @@ export default function Footer(){
 
             <div id="footer-menu" className='col-span-2 phone:col-span-1 row-span-7 flex flex-col justify-center items-center'>
                 <Link className="my-2 
-                text-[0.6rem] phone:text-sm md:text-base 2xl:text-lg">Home</Link>
+                text-[0.6rem] phone:text-xs md:text-sm lg:text-base 2xl:text-lg">Home</Link>
                 <Link className="my-2 
                 text-[0.6rem] phone:text-xs md:text-sm lg:text-base 2xl:text-lg">About Us</Link>
                 <Link className="my-2
