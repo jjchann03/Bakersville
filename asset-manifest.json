@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Bakersville/static/css/main.37bcdb31.css",
-    "main.js": "/Bakersville/static/js/main.ca602ae3.js",
-    "static/js/453.8ab44547.chunk.js": "/Bakersville/static/js/453.8ab44547.chunk.js",
-    "static/media/aboutusBackground.png": "/Bakersville/static/media/aboutusBackground.42be9317b1dd1c9f16f0.png",
-    "static/media/headerBackground.png": "/Bakersville/static/media/headerBackground.61fea4ab3e01a0200dfd.png",
-    "static/media/aboutusVideo.png": "/Bakersville/static/media/aboutusVideo.b0630c185754853f89f1.png",
-    "static/media/gallery2.png": "/Bakersville/static/media/gallery2.e6827acb73594f4562ce.png",
-    "index.html": "/Bakersville/index.html",
-    "main.37bcdb31.css.map": "/Bakersville/static/css/main.37bcdb31.css.map",
-    "main.ca602ae3.js.map": "/Bakersville/static/js/main.ca602ae3.js.map",
-    "453.8ab44547.chunk.js.map": "/Bakersville/static/js/453.8ab44547.chunk.js.map"
+    "main.css": "/io/Bakersville/static/css/main.74f1ec2a.css",
+    "main.js": "/io/Bakersville/static/js/main.a511cc46.js",
+    "static/js/453.8ab44547.chunk.js": "/io/Bakersville/static/js/453.8ab44547.chunk.js",
+    "static/media/aboutusBackground.png": "/io/Bakersville/static/media/aboutusBackground.42be9317b1dd1c9f16f0.png",
+    "static/media/headerBackground.png": "/io/Bakersville/static/media/headerBackground.61fea4ab3e01a0200dfd.png",
+    "static/media/aboutusVideo.png": "/io/Bakersville/static/media/aboutusVideo.b0630c185754853f89f1.png",
+    "static/media/gallery2.png": "/io/Bakersville/static/media/gallery2.e6827acb73594f4562ce.png",
+    "index.html": "/io/Bakersville/index.html",
+    "main.74f1ec2a.css.map": "/io/Bakersville/static/css/main.74f1ec2a.css.map",
+    "main.a511cc46.js.map": "/io/Bakersville/static/js/main.a511cc46.js.map",
+    "453.8ab44547.chunk.js.map": "/io/Bakersville/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37bcdb31.css",
-    "static/js/main.ca602ae3.js"
+    "static/css/main.74f1ec2a.css",
+    "static/js/main.a511cc46.js"
   ]
 }
