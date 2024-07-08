@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Bakersville/static/css/main.e600e37d.css",
-    "main.js": "/Bakersville/static/js/main.ae6aafb2.js",
+    "main.css": "/Bakersville/static/css/main.5ab76512.css",
+    "main.js": "/Bakersville/static/js/main.0c386efc.js",
     "static/js/453.8ab44547.chunk.js": "/Bakersville/static/js/453.8ab44547.chunk.js",
     "static/media/aboutusBackground.png": "/Bakersville/static/media/aboutusBackground.42be9317b1dd1c9f16f0.png",
     "static/media/headerBackground.png": "/Bakersville/static/media/headerBackground.61fea4ab3e01a0200dfd.png",
     "static/media/aboutusVideo.png": "/Bakersville/static/media/aboutusVideo.b0630c185754853f89f1.png",
     "static/media/gallery2.png": "/Bakersville/static/media/gallery2.e6827acb73594f4562ce.png",
     "index.html": "/Bakersville/index.html",
-    "main.e600e37d.css.map": "/Bakersville/static/css/main.e600e37d.css.map",
-    "main.ae6aafb2.js.map": "/Bakersville/static/js/main.ae6aafb2.js.map",
+    "main.5ab76512.css.map": "/Bakersville/static/css/main.5ab76512.css.map",
+    "main.0c386efc.js.map": "/Bakersville/static/js/main.0c386efc.js.map",
     "453.8ab44547.chunk.js.map": "/Bakersville/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e600e37d.css",
-    "static/js/main.ae6aafb2.js"
+    "static/css/main.5ab76512.css",
+    "static/js/main.0c386efc.js"
   ]
 }
