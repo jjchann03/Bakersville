@@ -10,20 +10,19 @@ import { FaYoutubeSquare } from "react-icons/fa";
 export default function Footer(){
     return(
         <div id="footer-body" className='grid grid-rows-8 grid-cols-7 w-full
-        h-[13rem] phone:h-[15rem] sm:h-[17rem] lg:h-[22rem] 2xl:h-[25rem]'>
+        h-[13rem] phone:h-[14rem] sm:h-[15rem] md:h-[17rem] lg:h-[22rem] 2xl:h-[25rem]'>
             <div id="footer-details-container" className='col-span-5 phone:col-span-3 row-span-7 px-6 pt-2'>
-                <div className="flex" id='footer-brand'>
-                    <div id="nav-brand-name">
-                        <p id="bakersvilla">Bakersvilla</p>
-                        <p id="academy">ACADEMY</p>
+                <div className="flex w-1/2 justify-start items-center" id='footer-brand'>
+                    <div id="nav-brand-name" className='text-end flex items-center justify-center'>
+                        <p id="bakersvilla" className='text-sm sm:text-base lg:text-xl font-bold leading-[12px] sm:leading-[13px] lg:leading-[14px]'>Bakersvilla <br/> <span className='text-[0.65rem] sm:text-xs lg:text-sm font-normal'>ACADEMY</span></p>
                     </div>
-                    <hr/>
-                    <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo" id="nav-logo"/>
+                    <hr className='h-[1.3rem] md:h-[1.6rem] lg:h-8 mx-[0.3rem] border-[0.5px] border-black'/>
+                    <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo" id="nav-logo" className='w-4/12 phone:w-5/12 sm:w-4/12 md:w-3/12 aspect-[4/3]'/>
                 </div>
 
                 <p id='footer-details-p' className='text-[0.6rem] phone:text-[0.65rem] sm:text-xs md:text-sm lg:text-base 2xl:text-lg
                 w-full lg:w-9/12 
-                text-start py-2 sm:py-4 xl:py-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                text-start py-2 sm:py-4 xl:py-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div id='footer-email-container' className='w-9/12 sm:w-10/12 lg:w-7/12 relative'>
                     <input type='email' placeholder='Email Address' className='w-full 
                     h-[1.4rem] sm:h-[1.8rem] md:h-[2.3rem] lg:h-[2.5rem] p-2 lg:px-4  border-[1px] border-slate-950 bg-transparent rounded-full
@@ -35,10 +34,10 @@ export default function Footer(){
                 </div>
                 <div id='footer-icon-container' className='flex justify-start items-center mt-4 phone:mt-2 sm:mt-4 lg:mt-4 lg:mb-4 w-full'>
                     <FaSquareFacebook className='text-lg phone:text-base sm:text-lg lg:text-2xl mr-3 text-red-900'/>
-                    <FaSquareTwitter className='text-lg lg:text-2xl mr-3 text-red-900'/>
-                    <FaSquareInstagram className='text-lg lg:text-2xl mr-3 text-red-900'/>
-                    <FaLinkedin className='text-lg lg:text-2xl mr-3 text-red-900'/>
-                    <FaYoutubeSquare className='text-lg lg:text-2xl mr-3 text-red-900'/>
+                    <FaSquareTwitter className='text-lg phone:text-base sm:text-lg lg:text-2xl mr-3 text-red-900'/>
+                    <FaSquareInstagram className='text-lg phone:text-base sm:text-lg lg:text-2xl mr-3 text-red-900'/>
+                    <FaLinkedin className='text-lg phone:text-base sm:text-lg lg:text-2xl mr-3 text-red-900'/>
+                    <FaYoutubeSquare className='text-lg phone:text-base sm:text-lg lg:text-2xl mr-3 text-red-900'/>
                 </div>
             </div>
 
