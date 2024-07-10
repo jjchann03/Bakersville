@@ -20,7 +20,7 @@ export default function Navbar(){
                     sm:leading-[10px] md:leading-[11px] xl:leading-[12px] 2xl:leading-[14px] "> Academy</span></p>
                 </div>
                 <hr/>
-                <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo" id="nav-logo" className="w-[13%] sm:w-4/12 2xl:w-3/12 aspect-square"/>
+                <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo" id="nav-logo" className="w-[13%] sm:w-4/12 2xl:w-3/12 aspect-[4/3]"/>
             </div>
 
             <div className="hidden sm:flex col-span-5 h-full mx-auto justify-center items-center">
