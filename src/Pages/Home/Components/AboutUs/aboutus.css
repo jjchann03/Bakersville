@@ -6,15 +6,6 @@
     color: white;
 }
 
-
-
-/* 
-.aboutus-extra-container{
-    width: 100%;
-    height: 75%;
-    position: relative;
-} */
-
 #border-text{
     font-weight: 500;
     color: transparent;
@@ -30,19 +21,10 @@
     background-size: cover;
 }
 
-/* #aboutus-play{
-    font-size: 2.5rem;
+.play-video:hover{
+    background-color: rgba(56, 56, 56, 0.226);
+    transform: scale(1.2)
 }
 
-#aboutus-big-img{
-    width: 200px;
-    position: absolute;
-    top: 40%;
-    left: 54%;
-}
-#aboutus-small-img{
-    width: 120px;
-    position: absolute;
-    top: 53%;
-    left: 32%;
-} */
+
+

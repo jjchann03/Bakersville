@@ -20,7 +20,7 @@ export default function Gallery(){
                 <div className='col-span-2 row-span-1 bg-[#ECDCC5] flex justify-center items-center'>
                     <button className='w-10/12 h-3/5 
                     text-[0.4rem] phone:text-[0.5rem] md:text-[0.6rem] lg:text-xs xl:text-sm
-                    font-semibold' id='gallery-btn'>VIEW PRODUCTS</button>
+                    font-semibold transition ease 0.5s' id='gallery-btn'>VIEW PRODUCTS</button>
                 </div>
                 
             </div>

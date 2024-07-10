@@ -17,11 +17,11 @@ export default function Header(){
                     <button className="w-4/12 md:w-3/12 lg:w-4/12
                     h-5 sm:h-6 md:h-7 lg:h-8 xl:h-[2.1rem] 2xl:h-[2.3rem]
                     text-[0.5rem] sm:text-[0.65rem] md:text-xs xl:text-sm
-                    font-medium" id="header-shop-btn">Shop</button>
+                    font-medium transition ease 0.5s" id="header-shop-btn">Shop</button>
                     <button className="w-4/12 md:w-3/12 lg:w-4/12
                     h-5 sm:h-6 md:h-7 lg:h-8 xl:h-[2.1rem] 2xl:h-[2.3rem]
                     text-[0.5rem] sm:text-[0.65rem] md:text-xs xl:text-sm
-                    font-medium" id="header-learn-btn">Learn</button>
+                    font-medium transition ease 0.5s" id="header-learn-btn">Learn</button>
                 </div>
         </div>
     )

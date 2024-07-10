@@ -5,16 +5,11 @@
     background-repeat: no-repeat;
 }
 
-/* .gallery-small-img-container{
-    width: 33%;
-    background-color: #ECDCC5;
-    position: relative;
-    background-image: url("../../../../../public/images/Home/gallery2.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
 #gallery-btn{
     color: #843F20;
     border: 1.3px solid #843F20;
+}
+#gallery-btn:hover{
+    background-color: #844020ce;
+    color: antiquewhite;
 }

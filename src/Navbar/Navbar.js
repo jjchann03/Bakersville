@@ -25,15 +25,15 @@ export default function Navbar(){
 
             <div className="hidden sm:flex col-span-5 h-full mx-auto justify-center items-center">
                 <Link className="text-[0.75rem] md:text-[0.8rem] lg:text-[0.9rem] 
-                font-medium sm:mx-6 md:mx-8 my-0">Home</Link>
+                font-medium sm:mx-6 md:mx-8 my-0 hover:scale-[1.1] hover:font-semibold hover:text-[#843F20] transition ease 0.2s">Home</Link>
                 <Link className="text-[0.75rem] md:text-[0.8rem] lg:text-[0.9rem] 
-                font-medium sm:mx-6 md:mx-8 my-0">About Us</Link>
+                font-medium sm:mx-6 md:mx-8 my-0 hover:scale-[1.1] hover:font-semibold hover:text-[#843F20] transition ease 0.2s">About Us</Link>
                 <Link className="text-[0.75rem] md:text-[0.8rem] lg:text-[0.9rem] 
-                font-medium sm:mx-6 md:mx-8 my-0">Courses</Link>
+                font-medium sm:mx-6 md:mx-8 my-0 hover:scale-[1.1] hover:font-semibold hover:text-[#843F20] transition ease 0.2s">Courses</Link>
                 <Link className="text-[0.75rem] md:text-[0.8rem] lg:text-[0.9rem] 
-                font-medium sm:mx-6 md:mx-8 my-0">Gallery</Link>
+                font-medium sm:mx-6 md:mx-8 my-0 hover:scale-[1.1] hover:font-semibold hover:text-[#843F20] transition ease 0.2s">Gallery</Link>
                 <Link className="text-[0.75rem] md:text-[0.8rem] lg:text-[0.9rem] 
-                font-medium sm:mx-6 md:mx-8 my-0">Contact</Link>
+                font-medium sm:mx-6 md:mx-8 my-0 hover:scale-[1.1] hover:font-semibold hover:text-[#843F20] transition ease 0.2s">Contact</Link>
             </div>
 
             <div className="block sm:hidden col-span-3 flex justify-end mr-[10%] items-center text-xl">
@@ -43,13 +43,13 @@ export default function Navbar(){
 
             <div className={`${(isMobOpen?'flex':'hidden')} min-w-screen w-screen min-h-screen h-screen justify-center flex-col items-center`}>
                 <Link className="text-base 
-                font-medium my-3">About Us</Link>
+                font-medium my-3 hover:scale-[1.1] hover:font-semibold hover:text-[#843F20] transition ease 0.2s">About Us</Link>
                 <Link className="text-base 
-                font-medium my-3">Courses</Link>
+                font-medium my-3 hover:scale-[1.1] hover:font-semibold hover:text-[#843F20] transition ease 0.2s">Courses</Link>
                 <Link className="text-base 
-                font-medium my-3">Gallery</Link>
+                font-medium my-3 hover:scale-[1.1] hover:font-semibold hover:text-[#843F20] transition ease 0.2s">Gallery</Link>
                 <Link className="text-base 
-                font-medium my-3">Contact</Link>
+                font-medium my-3 hover:scale-[1.1] hover:font-semibold hover:text-[#843F20] transition ease 0.2s">Contact</Link>
             </div>
 
         </div>

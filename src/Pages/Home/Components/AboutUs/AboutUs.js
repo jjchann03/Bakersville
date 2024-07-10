@@ -18,10 +18,12 @@ export default function AboutUs(){
                 text-2xl sm:text-5xl lg:text-6xl xl:text-7xl
                 tracking-[8px] sm:tracking-[15px] lg:tracking-[18px] 
                 leading-[2rem] phone:leading-[2.5rem] sm:leading-[4rem] md:leading-[4.5rem] lg:leading-[5rem]'>Bakers<br/>Villa</div>
-                <div id='aboutus-video-container' className='flex justify-center items-center box-content aspect-square z-[5] absolute
+                <div id='aboutus-video-container' className='box-content aspect-square z-[5] absolute
                 w-[16%] phone:w-[18%]  
-                top-[16%] phone:top-[18%] sm:top-[10%] left-[36%] '>
-                    <FaCirclePlay id='aboutus-play' className='md:text-4xl lg:text-5xl'/>
+                top-[16%] phone:top-[18%] sm:top-[10%] left-[36%] overflow-hidden'>
+                    <div className='w-full h-full flex justify-center items-center play-video transition ease 0.5s'>
+                        <FaCirclePlay id='aboutus-play' className='md:text-4xl lg:text-5xl'/>
+                    </div>
                 </div>
                 <img src={`${process.env.PUBLIC_URL}/images/Home/aboutusBig.png`} id='aboutus-big-img' className='absolute aspect-square 
                 w-[20%] phone:w-[22%] sm:w-[25%] lg:w-3/12 2xl:w-[23%]

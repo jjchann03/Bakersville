@@ -29,29 +29,29 @@ export default function Footer(){
                     text-[0.6rem] phone:text-[0.7rem] md:text-sm lg:text-base 2xl:text-lg'></input>
                     <button type='submit' className='absolute 
                     w-[1rem] sm:w-[1.4rem] md:w-[1.9rem] lg:w-[2.1rem] 
-                    bg-red-900 aspect-square rounded-full text-white flex justify-center items-center box-border
-                    top-[26%] right-[2%] sm:top-[12%] lg:top-[8%] lg:right-[2%]'><FaArrowRight className='text-[0.6rem] phone:text-xs md:text-sm lg:text-base 2xl:text-lg'/></button>
+                    bg-[#843F20] hover:bg-[#844020e5] aspect-square rounded-full text-white flex justify-center items-center box-border
+                    top-[26%] right-[2%] sm:top-[12%] lg:top-[8%] lg:right-[2%]'><FaArrowRight className='text-[0.6rem] phone:text-xs md:text-sm lg:text-base 2xl:text-lg transition ease 0.2s' /></button>
                 </div>
                 <div id='footer-icon-container' className='flex justify-start items-center mt-4 phone:mt-2 sm:mt-4 lg:mt-4 lg:mb-4 w-full'>
-                    <FaSquareFacebook className='text-lg phone:text-base sm:text-lg lg:text-2xl mr-3 text-red-900'/>
-                    <FaSquareTwitter className='text-lg phone:text-base sm:text-lg lg:text-2xl mr-3 text-red-900'/>
-                    <FaSquareInstagram className='text-lg phone:text-base sm:text-lg lg:text-2xl mr-3 text-red-900'/>
-                    <FaLinkedin className='text-lg phone:text-base sm:text-lg lg:text-2xl mr-3 text-red-900'/>
-                    <FaYoutubeSquare className='text-lg phone:text-base sm:text-lg lg:text-2xl mr-3 text-red-900'/>
+                    <FaSquareFacebook id='facebook' className='text-lg phone:text-base sm:text-lg lg:text-2xl mr-3 text-[#843F20] transition ease 0.2s'/>
+                    <FaSquareTwitter id='twitter' className='text-lg phone:text-base sm:text-lg lg:text-2xl mr-3 text-[#843F20] transition ease 0.2s'/>
+                    <FaSquareInstagram id='instagram' className='text-lg phone:text-base sm:text-lg lg:text-2xl mr-3 text-[#843F20] transition ease 0.2s'/>
+                    <FaLinkedin id='linkedin' className='text-lg phone:text-base sm:text-lg lg:text-2xl mr-3 text-[#843F20] transition ease 0.2s'/>
+                    <FaYoutubeSquare id='youtube' className='text-lg phone:text-base sm:text-lg lg:text-2xl mr-3 text-[#843F20] transition ease 0.2s'/>
                 </div>
             </div>
 
             <div id="footer-menu" className='col-span-2 phone:col-span-1 row-span-7 flex flex-col justify-center items-center'>
                 <Link className="my-2 
-                text-[0.6rem] phone:text-xs md:text-sm lg:text-base 2xl:text-lg">Home</Link>
+                text-[0.6rem] phone:text-xs md:text-sm lg:text-base 2xl:text-lg hover:font-semibold hover:scale-[1.1] hover:text-[#843F20] transition ease 0.2s">Home</Link>
                 <Link className="my-2 
-                text-[0.6rem] phone:text-xs md:text-sm lg:text-base 2xl:text-lg">About Us</Link>
+                text-[0.6rem] phone:text-xs md:text-sm lg:text-base 2xl:text-lg hover:font-semibold hover:scale-[1.1] hover:text-[#843F20] transition ease 0.2s">About Us</Link>
                 <Link className="my-2
-                text-[0.6rem] phone:text-xs md:text-sm lg:text-base 2xl:text-lg">Courses</Link>
+                text-[0.6rem] phone:text-xs md:text-sm lg:text-base 2xl:text-lg hover:font-semibold hover:scale-[1.1] hover:text-[#843F20] transition ease 0.2s">Courses</Link>
                 <Link className="my-2
-                text-[0.6rem] phone:text-xs md:text-sm lg:text-base 2xl:text-lg">Gallery</Link>
+                text-[0.6rem] phone:text-xs md:text-sm lg:text-base 2xl:text-lg hover:font-semibold hover:scale-[1.1] hover:text-[#843F20] transition ease 0.2s">Gallery</Link>
                 <Link className="my-2
-                text-[0.6rem] phone:text-xs md:text-sm lg:text-base 2xl:text-lg">Contact</Link>
+                text-[0.6rem] phone:text-xs md:text-sm lg:text-base 2xl:text-lg hover:font-semibold hover:scale-[1.1] hover:text-[#843F20] transition ease 0.2s">Contact</Link>
             </div>
 
             <div id="footer-img-container" className='hidden phone:block col-span-0 phone:col-span-3 row-span-7 overflow-hidden'>

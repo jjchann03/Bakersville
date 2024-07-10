@@ -19,7 +19,7 @@ export default function Content(){
                 h-[1.2rem] sm:h-[1.5rem] md:h-[1.25rem] lg:h-[1.5rem] xl:h-[1.75rem] 
                 text-[0.5rem] md:text-[0.6rem] lg:text-xs 
                 mt-1 sm:mt-1 md:mt-2 lg:mt-4 
-                font-semibold'>SIGN UP</button>
+                font-semibold hover:bg-red-700 transition ease 0.5s'>SIGN UP</button>
             </div>
 
             <div className='order-4 sm:order-3'>
@@ -38,7 +38,7 @@ export default function Content(){
                 h-[1.2rem] sm:h-[1.5rem] md:h-[1.25rem] lg:h-[1.5rem] xl:h-[1.75rem] 
                 text-[0.5rem] md:text-[0.6rem] lg:text-xs 
                 mt-1 sm:mt-1 md:mt-2 lg:mt-4 
-                font-semibold'>READ MORE</button>
+                font-semibold transition ease 0.5s'>READ MORE</button>
             </div>
 
             <div className='flex flex-col justify-center items-center order-6 sm:order-5'>
@@ -53,7 +53,7 @@ export default function Content(){
                 h-[1.2rem] sm:h-[1.5rem] md:h-[1.25rem] lg:h-[1.5rem] xl:h-[1.75rem] 
                 text-[0.5rem] md:text-[0.6rem] lg:text-xs 
                 mt-1 sm:mt-1 md:mt-2 lg:mt-4 
-                font-semibold'>GRAB NOW</button>
+                font-semibold transition ease 0.5s'>GRAB NOW</button>
             </div>
 
             <div className='order-5 sm:order-6'>
@@ -72,7 +72,7 @@ export default function Content(){
                 h-[1.2rem] sm:h-[1.5rem] md:h-[1.25rem] lg:h-[1.5rem] xl:h-[1.75rem] 
                 text-[0.5rem] md:text-[0.6rem] lg:text-xs 
                 mt-1 sm:mt-1 md:mt-2 lg:mt-4 
-                font-semibold'>ABOUT US</button>
+                font-semibold transition ease 0.5s'>ABOUT US</button>
             </div>
 
             <div className='order-8 sm:order-8'>
