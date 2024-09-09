@@ -2,16 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Rounded btn css tailwind
+text-sm border-[1px] rounded-3xl px-8 py-2 mt-8 mb-12 hover:border-[#843F20] hover:bg-[#843F20] transition ease-in-out duration-[0.8s]
+ */
+
+ /* 
+ heading media
+ text-[1.5rem] ph:text-[2rem] sm:text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] xl:text-[4rem]
+
+ parah media
+ */
+
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F7F0E6;
+  width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1{
+  font-family: 'BlackMango';
 }
